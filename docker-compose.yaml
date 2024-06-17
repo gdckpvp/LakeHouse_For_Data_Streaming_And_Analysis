@@ -1,0 +1,246 @@
+version: '3.8'
+
+x-superset-image: &superset-image guisilveira/superset
+x-superset-depends-on: &superset-depends-on
+  - db
+  - redis
+x-superset-volumes: &superset-volumes
+  # /app/pythonpath_docker will be appended to the PYTHONPATH in the final container
+  - ./docker:/app/docker
+  - superset_home:/app/superset_home
+x-logging: &default-logging
+  options:
+    max-size: "100m"
+    max-file: "5"
+  driver: json-file
+
+services:
+  minio:
+    image: guisilveira/minio
+    container_name: minio
+    networks:
+      - bigdata
+    ports:
+      - 9000:9000
+      - 9010:9010
+    command: server /data --console-address ":9010"
+    volumes:
+    - minio:/data
+    environment:
+      - MINIO_ROOT_USER=minioadmin
+      - MINIO_ROOT_PASSWORD=minioadmin
+    restart: unless-stopped
+  metastore-db:
+    image: guisilveira/mariadb
+    container_name: metastore-db
+    networks:
+      - bigdata
+    volumes:
+      - metastore-db:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=mypass
+    restart: unless-stopped
+  create-metastore-schema:
+    image: guisilveira/hive-metastore 
+    container_name: create-metastore-schema
+    depends_on:
+      - metastore-db
+    networks:
+      - bigdata
+    command: /opt/hive-metastore/bin/schematool --verbose -initSchema -dbType mysql -userName root -passWord mypass -url jdbc:mysql://metastore-db:3306/metastore_db?createDatabaseIfNotExist=true
+    restart: unless-stopped
+  metastore:
+    image: guisilveira/hive-metastore
+    container_name: metastore
+    networks:
+      - bigdata
+    volumes:
+      - ./data/metastore/metastore-site.xml:/opt/hive-metastore/conf/metastore-site.xml
+      - ./data/metastore/core-site.xml:/opt/hadoop/etc/hadoop/core-site.xml
+    environment:
+      - AWS_ACCESS_KEY_ID=minioadmin
+      - AWS_SECRET_ACCESS_KEY=minioadmin
+    command: /opt/hive-metastore/bin/start-metastore -p 9083
+    depends_on:
+      - create-metastore-schema
+      - metastore-db
+    restart: unless-stopped
+  jupyter:
+    image: duxting404/jupyter
+    container_name: jupyter
+    user: root
+    networks:
+      - bigdata
+    volumes:
+      - ./data/notebooks/Sourcecode:/app:rw
+    ports:
+      - 8888:8888
+      - 4041:4041
+    command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --NotebookApp.token='' --NotebookApp.password='' --allow-root
+  trino:
+    image: guisilveira/trino
+    container_name: trino
+    hostname: trino
+    ports:
+      - 8080:8080
+    volumes:
+      - ./data/trino/hive.properties:/etc/trino/catalog/hive.properties
+      - ./data/trino/delta.properties:/etc/trino/catalog/delta.properties
+      - ./data/trino/iceberg.properties:/etc/trino/catalog/iceberg.properties
+    networks:
+      - bigdata
+    depends_on:
+      - metastore
+    restart: on-failure
+  zookeeper:
+    image: guisilveira/zookeeper
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    volumes:
+      - zk-logs:/var/lib/zookeeper/log
+      - zk-data:/var/lib/zookeeper/data
+    networks:
+      - bigdata
+    restart: unless-stopped
+  broker:
+    image: guisilveira/kafka
+    container_name: broker
+    ports:
+      - 9092:9092
+      - 29092:29092
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker:9092,PLAINTEXT_INTERNAL://broker:29092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+    networks:
+      - bigdata
+    restart: unless-stopped
+  DataCreator:
+    image: duxting404/jupyter
+    container_name: DataCreator
+    user: root
+    networks:
+      - bigdata
+    volumes:
+      - ./data/notebooks/Sourcecode:/app:rw
+    command: python3 ./AutomateTable.py
+  streaming_processing:
+    image: duxting404/jupyter
+    container_name: streaming_processing
+    user: root
+    networks:
+      - bigdata
+    volumes:
+      - ./data/notebooks/Sourcecode:/app:rw
+    ports:
+      - 4040:4040
+    command: python3 ./streaming_pipeline.py
+  producer:
+    image: duxting404/kafka-producer
+    container_name: producer
+    depends_on:
+      - broker
+    networks:
+      - bigdata
+    volumes:
+      - ./data/Kafka:/app:rw
+    command: python3 ./kafka_producer.py
+  redis:
+    image: guisilveira/redis:latest
+    volumes:
+      - redis:/data
+    networks:
+      - bigdata
+    expose:
+      - 6379
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 30s
+      retries: 50
+    restart: always
+  db:
+    env_file: docker/.env-non-dev
+    image: guisilveira/postgres:10
+    container_name: superset_db
+    restart: unless-stopped
+    volumes:
+      - db_home:/var/lib/postgresql/data
+    networks:
+      - bigdata
+  superset:
+    env_file: docker/.env-non-dev
+    image: *superset-image
+    container_name: superset_app
+    command: ["/app/docker/docker-bootstrap.sh", "app-gunicorn"]
+    user: "root"
+    restart: unless-stopped
+    ports:
+      - 8088:8088
+    depends_on: *superset-depends-on
+    volumes: *superset-volumes
+    networks:
+      - bigdata
+
+  superset-init:
+    image: *superset-image
+    container_name: superset_init
+    command: ["/app/docker/docker-init.sh"]
+    env_file: docker/.env-non-dev
+    depends_on: *superset-depends-on
+    user: "root"
+    volumes: *superset-volumes
+    networks:
+      - bigdata
+
+  superset-worker:
+    image: *superset-image
+    container_name: superset_worker
+    command: ["/app/docker/docker-bootstrap.sh", "worker"]
+    env_file: docker/.env-non-dev
+    restart: unless-stopped
+    depends_on: *superset-depends-on
+    user: "root"
+    volumes: *superset-volumes
+    networks:
+      - bigdata
+
+  superset-worker-beat:
+    image: *superset-image
+    container_name: superset_worker_beat
+    command: ["/app/docker/docker-bootstrap.sh", "beat"]
+    env_file: docker/.env-non-dev
+    restart: unless-stopped
+    depends_on: *superset-depends-on
+    user: "root"
+    volumes: *superset-volumes
+    networks:
+      - bigdata
+
+volumes:
+  minio:
+  notebooks:
+  metastore-db:
+  superset_home:
+  db_home:
+  zk-data:
+  zk-logs:
+  kafka-data:
+  workspace:
+  producer:
+  redis:
+  data:
+    name: ${DATA_DOCKER_MOUNT}
+networks:
+  bigdata:
+    driver: bridge

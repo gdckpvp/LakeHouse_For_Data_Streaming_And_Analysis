@@ -1,2 +1,2 @@
 # Streaming_Coin
- Real time streaming system for coin analysis
+ The real time streaming system for coin analysis
