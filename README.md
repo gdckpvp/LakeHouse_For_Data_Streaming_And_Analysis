@@ -1,4 +1,4 @@
-# Lake House For Data Streaming And Analysis:
+# LakeHouse For Data Streaming And Analysis:
 ## The real time streaming system for coin analysis
 ![Image](./md%20img//architecture.png)
 # Quick setup
