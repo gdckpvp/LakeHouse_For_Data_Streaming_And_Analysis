@@ -11,7 +11,7 @@ from spark.delta_manager import optimize_delta, vacuum_delta
 from utils import get_coins_from_api
 from tbl_paths import BUCKET_PATH, TABLE_PATHS
 from spark.populate_dim import upsert_scd_dimcoin,initialize_dimcoin_staging
-from spark.meta_data import check_minio_bucket, create_hive_table, check_existing_timedata
+from spark.metadata import check_minio_bucket, check_existing_timedata
 import logging # Use for returning log information
 
 # Initialize logging
@@ -58,7 +58,8 @@ def base_spark_config(is_streaming=False):
         .set('spark.databricks.delta.retentionDurationCheck.enabled', 'false')\
         .set("spark.databricks.delta.optimizeWrite.enabled", 'true')\
         .set("spark.scheduler.mode","FAIR")\
-        
+        #.set("spark.sql.streaming.checkpointFileManagerClass", "io.minio.spark.checkpoint.S3BasedCheckpointFileManager")\
+    
     return conf
 
 def create_spark_session(conf, app_name):
@@ -96,7 +97,6 @@ def optimize_vacuum_storage():
 
 if __name__ == "__main__":
     check_minio_bucket()
-    create_hive_table()
     spark = create_spark_session_for_automate_table()
     check_existing_timedata(spark)
     initialize_dimcoin_staging(spark, dimcoin_stg_path)

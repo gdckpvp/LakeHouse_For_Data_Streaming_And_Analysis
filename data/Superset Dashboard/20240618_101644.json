@@ -1,0 +1,1586 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "body{\r\n    background-image: linear-gradient(-90deg, #a1a2a9, #badaff);\r\n}\r\n\r\n\r\n\r\n  .grid-content .dragdroppable-row .dragdroppable-column .dashboard-component-chart-holder {\r\n    \r\n    border-radius:25px;\r\n    box-shadow: 0px 0px 30px #708090;\r\n  }\r\n  .dashboard-chart-id-4622{\r\n    background-image: url('https://th.bing.com/th/id/R.19089e4246b8c29a02e023d9468a1f7f?rik=y8nYxctC2sklQw&pid=ImgRaw&r=0');\r\n    background-position: center center;\r\n  }",
+                "dashboard_title": "Coin Analysis",
+                "description": null,
+                "json_metadata": "{\"show_native_filters\": true, \"color_scheme\": \"supersetColors\", \"refresh_frequency\": 0, \"expanded_slices\": {}, \"label_colors\": {}, \"timed_refresh_immune_slices\": [], \"default_filters\": \"{}\", \"chart_configuration\": {}, \"shared_label_colors\": {\"0\": \"#5ac1b2\", \"Daily Price\": \"#1f64c9\", \"Average Price (1)\": \"#52457c\", \"USDT\": \"#1FA8C9\", \"BTC\": \"#454E7C\", \"ETH\": \"#5AC189\", \"USDC\": \"#FF7F44\", \"SOL\": \"#E04355\", \"XRP\": \"#FCC700\", \"DOGE\": \"#A868B7\", \"BNB\": \"#666666\", \"DAI\": \"#8FD3E4\", \"LTC\": \"#A1A6BD\", \"LINK\": \"#A38F79\", \"SHIB\": \"#3CCCCB\", \"ADA\": \"#9EE5E5\", \"UNI\": \"#ACE1C4\", \"MATIC\": \"#D3B3DA\", \"AVAX\": \"#B2B2B2\", \"FIL\": \"#1FA8C9\", \"TRX\": \"#FEC0A1\", \"BCH\": \"#FDE380\", \"DOT\": \"#666666\", \"NEAR\": \"#FF7F44\", \"ETC\": \"#E04355\", \"FTM\": \"#D1C6BC\", \"WBTC\": \"#EFA1AA\", \"EOS\": \"#5AC189\", \"FET\": \"#A868B7\", \"INJ\": \"#FEC0A1\", \"ATOM\": \"#FCC700\", \"AR\": \"#EFA1AA\", \"GALA\": \"#A1A6BD\", \"XLM\": \"#D1C6BC\", \"RUNE\": \"#3CCCCB\", \"CHZ\": \"#8FD3E4\", \"XMR\": \"#A38F79\", \"ICP\": \"#666666\", \"AAVE\": \"#9EE5E5\", \"ALGO\": \"#1FA8C9\", \"LPT\": \"#B2B2B2\", \"FTT\": \"#E04355\", \"STX\": \"#454E7C\", \"GRT\": \"#B2B2B2\", \"ROSE\": \"#A1A6BD\", \"MKR\": \"#454E7C\", \"ZEC\": \"#1FA8C9\", \"SAND\": \"#5AC189\", \"HBAR\": \"#A868B7\", \"1INCH\": \"#1FA8C9\", \"CRV\": \"#1FA8C9\", \"VET\": \"#FF7F44\", \"COMP\": \"#454E7C\", \"NEO\": \"#666666\", \"AXS\": \"#D3B3DA\", \"CAKE\": \"#ACE1C4\", \"CFX\": \"#EFA1AA\", \"XTZ\": \"#3CCCCB\", \"SNX\": \"#8FD3E4\", \"FLOW\": \"#D1C6BC\", \"CKB\": \"#FDE380\", \"IOTX\": \"#9EE5E5\", \"EGLD\": \"#A38F79\", \"THETA\": \"#8FD3E4\", \"RNDR\": \"#FF7F44\", \"NXM\": \"#B2B2B2\", \"MANA\": \"#D3B3DA\", \"OCEAN\": \"#D3B3DA\", \"LDO\": \"#454E7C\", \"MINA\": \"#FCC700\", \"KAVA\": \"#ACE1C4\", \"OM\": \"#E04355\", \"RPL\": \"#9EE5E5\", \"AKT\": \"#5AC189\", \"GNO\": \"#5AC189\", \"WOO\": \"#FEC0A1\", \"IOTA\": \"#ACE1C4\", \"KSM\": \"#454E7C\", \"ELF\": \"#1FA8C9\", \"CRO\": \"#A868B7\", \"QNT\": \"#D1C6BC\", \"RAY\": \"#FDE380\", \"AIOZ\": \"#A38F79\", \"BSV\": \"#EFA1AA\", \"ZIL\": \"#1FA8C9\", \"TUSD\": \"#B2B2B2\", \"CVX\": \"#454E7C\", \"WEMIX\": \"#ACE1C4\", \"CELO\": \"#5AC189\", \"AGIX\": \"#3CCCCB\", \"KLAY\": \"#A868B7\", \"TWT\": \"#FDE380\", \"DEXE\": \"#1FA8C9\", \"GT\": \"#9EE5E5\", \"PENDLE\": \"#FCC700\", \"ANT\": \"#FF7F44\", \"TFUEL\": \"#8FD3E4\", \"ANKR\": \"#A1A6BD\", \"XEC\": \"#FF7F44\", \"SUPER\": \"#666666\", \"GLM\": \"#454E7C\", \"HNT\": \"#FEC0A1\", \"NEXO\": \"#FEC0A1\", \"Average price\": \"#1FA8C9\", \"Price\": \"#e07043\", \"binance-coin\": \"#1FA8C9\", \"bitcoin\": \"#ffca44\", \"dogecoin\": \"#5AC189\", \"ethereum\": \"#666666\", \"litecoin\": \"#1FA8C9\", \"multi-collateral-dai\": \"#666666\", \"solana\": \"#FCC700\", \"tether\": \"#A868B7\", \"usd-coin\": \"#3CCCCB\", \"xrp\": \"#A38F79\", \"Average pricie\": \"#1FA8C9\"}, \"stagger_refresh\": true, \"remote_id\": 11, \"import_time\": 1718360110, \"native_filter_configuration\": []}",
+                "position_json": "{\"CHART--En-N9SXB0\":{\"children\":[],\"id\":\"CHART--En-N9SXB0\",\"meta\":{\"chartId\":290,\"height\":31,\"sliceName\":\"Total streaming coins\",\"uuid\":\"ee8134fc-b1c5-42f7-b079-3ac07c3656c4\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\",\"ROW-VPGxAn_UJ\"],\"type\":\"CHART\"},\"CHART-67d5sl3KnF\":{\"children\":[],\"id\":\"CHART-67d5sl3KnF\",\"meta\":{\"chartId\":575,\"height\":31,\"sliceName\":\"Total volume trading in day\",\"uuid\":\"a21d63ca-b353-476d-b263-78796ee159a1\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\",\"ROW-VPGxAn_UJ\"],\"type\":\"CHART\"},\"CHART-K1T8-c_2g8\":{\"children\":[],\"id\":\"CHART-K1T8-c_2g8\",\"meta\":{\"chartId\":133,\"height\":50,\"sliceName\":\"BTC price with MA\",\"uuid\":\"c47ad2fe-f183-4176-a8e4-0de60f700640\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"ROW-_BsFXtNDg\"],\"type\":\"CHART\"},\"CHART-NQubyZUUi4\":{\"children\":[],\"id\":\"CHART-NQubyZUUi4\",\"meta\":{\"chartId\":134,\"height\":50,\"sliceName\":\"Ethereum Price with MA\",\"uuid\":\"0eb865da-ddc2-4eb4-a718-12227b9493b1\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\",\"ROW-VV8-1Bm3_\"],\"type\":\"CHART\"},\"CHART-W1yOCYna-r\":{\"children\":[],\"id\":\"CHART-W1yOCYna-r\",\"meta\":{\"chartId\":143,\"height\":50,\"sliceName\":\"ETH Daily Highest price and trend\",\"uuid\":\"7389c3c5-e563-4a14-87f0-e2f2028b0a70\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\",\"ROW-EaWJrAGJp\"],\"type\":\"CHART\"},\"CHART-ZbcYZtrCum\":{\"children\":[],\"id\":\"CHART-ZbcYZtrCum\",\"meta\":{\"chartId\":142,\"height\":50,\"sliceName\":\"eth supply\",\"sliceNameOverride\":\"Ethereum supply\",\"uuid\":\"21d09672-59c3-4370-9969-f9a5a37d5a46\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\",\"ROW-EaWJrAGJp\"],\"type\":\"CHART\"},\"CHART-_k0qbMKW6E\":{\"children\":[],\"id\":\"CHART-_k0qbMKW6E\",\"meta\":{\"chartId\":141,\"height\":45,\"sliceName\":\"BTC supply\",\"uuid\":\"7751784b-e401-45e5-bfa7-294471beb345\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"ROW-g0yui_IS8\"],\"type\":\"CHART\"},\"CHART-_z5SqmVXgf\":{\"children\":[],\"id\":\"CHART-_z5SqmVXgf\",\"meta\":{\"chartId\":149,\"height\":50,\"sliceName\":\"Bitcoin real-time price\",\"uuid\":\"bc1ba19d-ea4d-4f24-a341-d4e6cbc60a45\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"ROW-Q7i7O50nT\"],\"type\":\"CHART\"},\"CHART-nx5xJnQuvf\":{\"children\":[],\"id\":\"CHART-nx5xJnQuvf\",\"meta\":{\"chartId\":135,\"height\":60,\"sliceName\":\"All Coin\",\"uuid\":\"17563ba3-172b-4838-af2d-26e3a97eb9b9\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\",\"ROW-GWUhT3heA\"],\"type\":\"CHART\"},\"CHART-oAeCrCwMkb\":{\"children\":[],\"id\":\"CHART-oAeCrCwMkb\",\"meta\":{\"chartId\":363,\"height\":50,\"sliceName\":\"Ethereum realtime\",\"uuid\":\"bb8a071a-61d7-46e4-9854-e9a2772768d8\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\",\"ROW-JbP6AFCqN\"],\"type\":\"CHART\"},\"CHART-uDrgz5pY2E\":{\"children\":[],\"id\":\"CHART-uDrgz5pY2E\",\"meta\":{\"chartId\":364,\"height\":50,\"sliceName\":\"Streaming Coin reporting\",\"uuid\":\"3a663bc3-437d-4c96-86ae-4cc070c36b56\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\",\"ROW-hrFnUeNVz\"],\"type\":\"CHART\"},\"CHART-v-d5tdcRfr\":{\"children\":[],\"id\":\"CHART-v-d5tdcRfr\",\"meta\":{\"chartId\":136,\"height\":45,\"sliceName\":\"Highest price and trend\",\"uuid\":\"4f431449-ffeb-4ab0-b860-7d3b099d4086\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"ROW-g0yui_IS8\"],\"type\":\"CHART\"},\"CHART-w-4YR9g_ZR\":{\"children\":[],\"id\":\"CHART-w-4YR9g_ZR\",\"meta\":{\"chartId\":291,\"height\":60,\"sliceName\":\"Top trading volume\",\"uuid\":\"ed939e03-c7bb-4b92-92fc-2d1b249ca4f4\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\",\"ROW-GWUhT3heA\"],\"type\":\"CHART\"},\"CHART-wz0-pRczWL\":{\"children\":[],\"id\":\"CHART-wz0-pRczWL\",\"meta\":{\"chartId\":362,\"height\":31,\"sliceName\":\"Change percent\",\"uuid\":\"c6fca9ec-0aad-42fe-bbaa-484ddffb2a6a\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\",\"ROW-VPGxAn_UJ\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-47zFg3R0R9\":{\"children\":[],\"id\":\"DIVIDER-47zFg3R0R9\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-5ebofsy5Zl\":{\"children\":[],\"id\":\"DIVIDER-5ebofsy5Zl\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"DIVIDER\"},\"DIVIDER-77_VXMeNc9\":{\"children\":[],\"id\":\"DIVIDER-77_VXMeNc9\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"DIVIDER\"},\"DIVIDER-AaQRZbmi7x\":{\"children\":[],\"id\":\"DIVIDER-AaQRZbmi7x\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"DIVIDER\"},\"DIVIDER-IZk4DsriTh\":{\"children\":[],\"id\":\"DIVIDER-IZk4DsriTh\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"DIVIDER\"},\"DIVIDER-LOY3vU4YLw\":{\"children\":[],\"id\":\"DIVIDER-LOY3vU4YLw\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"DIVIDER\"},\"DIVIDER-VT3qHjGggZ\":{\"children\":[],\"id\":\"DIVIDER-VT3qHjGggZ\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"DIVIDER\"},\"DIVIDER-eFQuZEUVLZ\":{\"children\":[],\"id\":\"DIVIDER-eFQuZEUVLZ\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"DIVIDER\"},\"DIVIDER-fJOEhOBOfQ\":{\"children\":[],\"id\":\"DIVIDER-fJOEhOBOfQ\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"DIVIDER\"},\"DIVIDER-hCV1UGzLf5\":{\"children\":[],\"id\":\"DIVIDER-hCV1UGzLf5\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"DIVIDER\"},\"DIVIDER-jExj4d7_uh\":{\"children\":[],\"id\":\"DIVIDER-jExj4d7_uh\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"DIVIDER\"},\"DIVIDER-mEprmxVFZ7\":{\"children\":[],\"id\":\"DIVIDER-mEprmxVFZ7\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"DIVIDER\"},\"DIVIDER-zHszyFrtHo\":{\"children\":[],\"id\":\"DIVIDER-zHszyFrtHo\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"TABS-L43shYEvap\",\"DIVIDER-47zFg3R0R9\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Coin Analysis\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-EaWJrAGJp\":{\"children\":[\"CHART-W1yOCYna-r\",\"CHART-ZbcYZtrCum\"],\"id\":\"ROW-EaWJrAGJp\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"ROW\"},\"ROW-GWUhT3heA\":{\"children\":[\"CHART-nx5xJnQuvf\",\"CHART-w-4YR9g_ZR\"],\"id\":\"ROW-GWUhT3heA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"ROW\"},\"ROW-JbP6AFCqN\":{\"children\":[\"CHART-oAeCrCwMkb\"],\"id\":\"ROW-JbP6AFCqN\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"ROW\"},\"ROW-Q7i7O50nT\":{\"children\":[\"CHART-_z5SqmVXgf\"],\"id\":\"ROW-Q7i7O50nT\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"ROW\"},\"ROW-VPGxAn_UJ\":{\"children\":[\"CHART--En-N9SXB0\",\"CHART-67d5sl3KnF\",\"CHART-wz0-pRczWL\"],\"id\":\"ROW-VPGxAn_UJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"ROW\"},\"ROW-VV8-1Bm3_\":{\"children\":[\"CHART-NQubyZUUi4\"],\"id\":\"ROW-VV8-1Bm3_\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-431CPAGyN\"],\"type\":\"ROW\"},\"ROW-_BsFXtNDg\":{\"children\":[\"CHART-K1T8-c_2g8\"],\"id\":\"ROW-_BsFXtNDg\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"ROW\"},\"ROW-g0yui_IS8\":{\"children\":[\"CHART-v-d5tdcRfr\",\"CHART-_k0qbMKW6E\"],\"id\":\"ROW-g0yui_IS8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"ROW\"},\"ROW-hrFnUeNVz\":{\"children\":[\"CHART-uDrgz5pY2E\"],\"id\":\"ROW-hrFnUeNVz\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-m18tuI5kP9\"],\"type\":\"ROW\"},\"TAB-431CPAGyN\":{\"children\":[\"DIVIDER-hCV1UGzLf5\",\"ROW-EaWJrAGJp\",\"DIVIDER-VT3qHjGggZ\",\"DIVIDER-LOY3vU4YLw\",\"ROW-JbP6AFCqN\",\"DIVIDER-jExj4d7_uh\",\"ROW-VV8-1Bm3_\"],\"id\":\"TAB-431CPAGyN\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Ethereum\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\"],\"type\":\"TAB\"},\"TAB-D8JXcRKVA\":{\"children\":[\"DIVIDER-IZk4DsriTh\",\"ROW-g0yui_IS8\",\"DIVIDER-AaQRZbmi7x\",\"TABS-cC4arJjyPM\",\"ROW-Q7i7O50nT\",\"DIVIDER-5ebofsy5Zl\",\"ROW-_BsFXtNDg\",\"DIVIDER-mEprmxVFZ7\"],\"id\":\"TAB-D8JXcRKVA\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Bitcoin\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\"],\"type\":\"TAB\"},\"TAB-MxU4OSPvKf\":{\"children\":[],\"id\":\"TAB-MxU4OSPvKf\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Daily\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"TABS-cC4arJjyPM\"],\"type\":\"TAB\"},\"TAB-Yrz1P5Eeg\":{\"children\":[],\"id\":\"TAB-Yrz1P5Eeg\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Monthly\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"TABS-cC4arJjyPM\"],\"type\":\"TAB\"},\"TAB-_M_zSHCKE\":{\"children\":[],\"id\":\"TAB-_M_zSHCKE\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Yearly\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"TABS-cC4arJjyPM\"],\"type\":\"TAB\"},\"TAB-m18tuI5kP9\":{\"children\":[\"DIVIDER-eFQuZEUVLZ\",\"ROW-VPGxAn_UJ\",\"DIVIDER-77_VXMeNc9\",\"ROW-GWUhT3heA\",\"DIVIDER-fJOEhOBOfQ\",\"ROW-hrFnUeNVz\",\"DIVIDER-zHszyFrtHo\"],\"id\":\"TAB-m18tuI5kP9\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Overall\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\"],\"type\":\"TAB\"},\"TAB-vsl3Lk0ea\":{\"children\":[],\"id\":\"TAB-vsl3Lk0ea\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Weekly\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\",\"TABS-cC4arJjyPM\"],\"type\":\"TAB\"},\"TABS-L43shYEvap\":{\"children\":[\"TAB-m18tuI5kP9\",\"TAB-D8JXcRKVA\",\"TAB-431CPAGyN\"],\"id\":\"TABS-L43shYEvap\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"},\"TABS-cC4arJjyPM\":{\"children\":[\"TAB-MxU4OSPvKf\",\"TAB-vsl3Lk0ea\",\"TAB-Yrz1P5Eeg\",\"TAB-_M_zSHCKE\"],\"id\":\"TABS-cC4arJjyPM\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-L43shYEvap\",\"TAB-D8JXcRKVA\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Change percent",
+                            "datasource_type": "table",
+                            "id": 362,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"40__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"__timestamp\", \"groupby\": [\"name\"], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": true, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"MAX(change_percent_last_day)\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 837, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(MAX(change_percent_last_day))\", \"optionName\": \"metric_6xnbmfcy7x9_cub6jdl1dpw\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 1000, \"show_legend\": true, \"slice_id\": 362, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipSortByMetric\": false, \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \".3%\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 362, \"datasource_name\": \"Change percent\", \"schema\": null, \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":40,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"__timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"name\"],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"MAX(change_percent_last_day)\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":837,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(MAX(change_percent_last_day))\",\"optionName\":\"metric_6xnbmfcy7x9_cub6jdl1dpw\",\"sqlExpression\":null}],\"orderby\":[[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"MAX(change_percent_last_day)\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":837,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(MAX(change_percent_last_day))\",\"optionName\":\"metric_6xnbmfcy7x9_cub6jdl1dpw\",\"sqlExpression\":null},false]],\"annotation_layers\":[],\"row_limit\":1000,\"series_columns\":[\"name\"],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[\"name\"],\"aggregates\":{\"MAX(MAX(change_percent_last_day))\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},{\"operation\":\"rename\",\"options\":{\"columns\":{\"MAX(MAX(change_percent_last_day))\":null},\"level\":0,\"inplace\":true}},{\"operation\":\"flatten\"}]}],\"form_data\":{\"viz_type\":\"echarts_timeseries_line\",\"datasource\":\"40__table\",\"slice_id\":362,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"__timestamp\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"MAX(change_percent_last_day)\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":837,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(MAX(change_percent_last_day))\",\"optionName\":\"metric_6xnbmfcy7x9_cub6jdl1dpw\",\"sqlExpression\":null}],\"groupby\":[\"name\"],\"adhoc_filters\":[],\"order_desc\":true,\"row_limit\":1000,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"only_total\":true,\"markerEnabled\":true,\"markerSize\":6,\"show_legend\":true,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipSortByMetric\":false,\"tooltipTimeFormat\":\"smart_date\",\"y_axis_format\":\".3%\",\"truncateYAxis\":true,\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Change percent",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "jdbc.test3_ethereum",
+                            "datasource_type": "table",
+                            "id": 363,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"26__table\", \"extra_form_data\": {}, \"forecastEnabled\": false, \"forecastInterval\": \"0.2\", \"forecastPeriods\": \"1\", \"forecastSeasonalityDaily\": false, \"forecastSeasonalityWeekly\": false, \"forecastSeasonalityYearly\": false, \"granularity_sqla\": \"timestamp\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerEnabled\": true, \"markerSize\": 7, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"ethereum\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 775, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Price\", \"optionName\": \"metric_eab0uyma5v_n3iug5xuxo\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"average_1minute\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 777, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Average pricie\", \"optionName\": \"metric_y2hall2irxa_mxv3mgikxd\", \"sqlExpression\": null}], \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10, \"show_legend\": true, \"time_grain_sqla\": \"PT1S\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"timestamp\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 776, \"is_certified\": false, \"is_dttm\": true, \"python_date_format\": null, \"type\": \"TIMESTAMP(3) WITH TIME ZONE\", \"type_generic\": 2, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(timestamp)\", \"optionName\": \"metric_t449h4zspyo_nq0ahbc7cek\", \"sqlExpression\": null}, \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"$,.2f\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 363, \"datasource_name\": \"test3_ethereum\", \"schema\": \"jdbc\", \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":26,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"PT1S\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":775,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Price\",\"optionName\":\"metric_eab0uyma5v_n3iug5xuxo\"},{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":777,\"column_name\":\"average_1minute\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Average pricie\",\"optionName\":\"metric_y2hall2irxa_mxv3mgikxd\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":776,\"column_name\":\"timestamp\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":true,\"type\":\"TIMESTAMP(3) WITH TIME ZONE\",\"type_generic\":2,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(timestamp)\",\"optionName\":\"metric_t449h4zspyo_nq0ahbc7cek\"},false]],\"annotation_layers\":[],\"row_limit\":10,\"series_columns\":[],\"timeseries_limit\":0,\"timeseries_limit_metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":776,\"column_name\":\"timestamp\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":true,\"type\":\"TIMESTAMP(3) WITH TIME ZONE\",\"type_generic\":2,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(timestamp)\",\"optionName\":\"metric_t449h4zspyo_nq0ahbc7cek\"},\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"Price\":{\"operator\":\"mean\"},\"Average pricie\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},{\"operation\":\"flatten\"}]}],\"form_data\":{\"viz_type\":\"echarts_timeseries_line\",\"datasource\":\"26__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"timestamp\",\"time_grain_sqla\":\"PT1S\",\"time_range\":\"No filter\",\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":775,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Price\",\"optionName\":\"metric_eab0uyma5v_n3iug5xuxo\"},{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":777,\"column_name\":\"average_1minute\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Average pricie\",\"optionName\":\"metric_y2hall2irxa_mxv3mgikxd\"}],\"groupby\":[],\"adhoc_filters\":[],\"timeseries_limit_metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":776,\"column_name\":\"timestamp\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":true,\"type\":\"TIMESTAMP(3) WITH TIME ZONE\",\"type_generic\":2,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(timestamp)\",\"optionName\":\"metric_t449h4zspyo_nq0ahbc7cek\"},\"order_desc\":true,\"row_limit\":10,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastEnabled\":false,\"forecastPeriods\":\"1\",\"forecastInterval\":\"0.2\",\"forecastSeasonalityYearly\":false,\"forecastSeasonalityWeekly\":false,\"forecastSeasonalityDaily\":false,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"only_total\":true,\"markerEnabled\":true,\"markerSize\":7,\"show_legend\":true,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"y_axis_format\":\"$,.2f\",\"truncateYAxis\":true,\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Ethereum realtime",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "FACT",
+                            "datasource_type": "table",
+                            "id": 364,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [\"symbol\", \"name\", \"CalendarDate\", \"Time\", \"price\", \"market_cap\", \"change_percent_last_day\", \"average_1minute\"], \"color_pn\": true, \"datasource\": \"41__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"CalendarDate\", \"groupby\": [], \"metrics\": [], \"order_by_cols\": [\"[\\\"CalendarDate\\\", false]\", \"[\\\"Time\\\", false]\"], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"raw\", \"row_limit\": 1000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"table\", \"remote_id\": 364, \"datasource_name\": \"FACT\", \"schema\": null, \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":41,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"CalendarDate\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"symbol\",\"name\",\"CalendarDate\",\"Time\",\"price\",\"market_cap\",\"change_percent_last_day\",\"average_1minute\"],\"orderby\":[[\"CalendarDate\",false],[\"Time\",false]],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"post_processing\":[]}],\"form_data\":{\"viz_type\":\"table\",\"datasource\":\"41__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"CalendarDate\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"query_mode\":\"raw\",\"groupby\":[],\"metrics\":[],\"all_columns\":[\"symbol\",\"name\",\"CalendarDate\",\"Time\",\"price\",\"market_cap\",\"change_percent_last_day\",\"average_1minute\"],\"percent_metrics\":[],\"adhoc_filters\":[],\"order_by_cols\":[\"[\\\"CalendarDate\\\", false]\",\"[\\\"Time\\\", false]\"],\"row_limit\":1000,\"server_page_length\":10,\"include_time\":false,\"order_desc\":true,\"table_timestamp_format\":\"smart_date\",\"show_cell_bars\":true,\"color_pn\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Streaming Coin reporting",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "jdbc.test bitcoin",
+                            "datasource_type": "table",
+                            "id": 133,
+                            "params": "{\"adhoc_filters\": [], \"adhoc_filters_b\": [], \"annotation_layers\": [], \"areaB\": false, \"color_scheme\": \"supersetColors\", \"datasource\": \"36__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"timestamp\", \"groupby\": [], \"groupby_b\": [], \"legendOrientation\": \"bottom\", \"legendType\": \"scroll\", \"markerEnabled\": false, \"markerSize\": 22, \"markerSizeB\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"bitcoin\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 811, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Price\", \"optionName\": \"metric_y0oplrmhj7h_2xwukmrgwtp\", \"sqlExpression\": null}], \"metrics_b\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"bitcoin\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 811, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Average Price\", \"optionName\": \"metric_pdusgc7wav_etwdum5eu2n\", \"sqlExpression\": null}], \"opacity\": 0.2, \"opacityB\": 0.2, \"order_desc\": true, \"order_desc_b\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"row_limit_b\": 10000, \"seriesType\": \"bar\", \"seriesTypeB\": \"line\", \"show_legend\": true, \"show_value\": false, \"show_valueB\": false, \"slice_id\": 5759, \"stackB\": false, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"viz_type\": \"mixed_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"yAxisIndex\": 0, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"$,.2f\", \"y_axis_format_secondary\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": false, \"remote_id\": 133, \"datasource_name\": \"test3 bitcoin\", \"schema\": \"jdbc\", \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                            "query_context": "{\"datasource\":{\"id\":36,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":811,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Daily Price\",\"optionName\":\"metric_y0oplrmhj7h_2xwukmrgwtp\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"Daily Price\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},null,{\"operation\":\"flatten\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":811,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Daily Price\",\"optionName\":\"metric_y0oplrmhj7h_2xwukmrgwtp\"},false]]},{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":811,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"aggregate\":\"AVG\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Average Price\",\"optionName\":\"metric_pdusgc7wav_etwdum5eu2n\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"Average Price\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},null,{\"operation\":\"flatten\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":811,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"aggregate\":\"AVG\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Average Price\",\"optionName\":\"metric_pdusgc7wav_etwdum5eu2n\"},false]]}],\"form_data\":{\"viz_type\":\"mixed_timeseries\",\"datasource\":\"36__table\",\"slice_id\":5759,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"timestamp\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"row_limit\":10000,\"row_limit_b\":10000,\"annotation_layers\":[],\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"seriesType\":\"bar\",\"show_value\":false,\"opacity\":0.2,\"markerEnabled\":false,\"markerSize\":22,\"yAxisIndex\":0,\"seriesTypeB\":\"line\",\"stackB\":false,\"areaB\":false,\"show_valueB\":false,\"opacityB\":0.2,\"markerSizeB\":6,\"zoomable\":false,\"show_legend\":true,\"legendType\":\"scroll\",\"legendOrientation\":\"bottom\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"truncateYAxis\":true,\"y_axis_bounds\":[null,null],\"y_axis_format\":\"$,.2f\",\"y_axis_format_secondary\":\"SMART_NUMBER\",\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\",\"is_timeseries\":true,\"adhoc_filters\":[],\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":811,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Daily Price\",\"optionName\":\"metric_y0oplrmhj7h_2xwukmrgwtp\"}],\"order_desc\":true},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "BTC price with MA",
+                            "viz_type": "mixed_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "jdbc.test_ethereum",
+                            "datasource_type": "table",
+                            "id": 134,
+                            "params": "{\"adhoc_filters\": [], \"adhoc_filters_b\": [], \"annotation_layers\": [], \"color_scheme\": \"presetColors\", \"datasource\": \"37__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"timestamp\", \"groupby\": [], \"groupby_b\": [], \"legendOrientation\": \"bottom\", \"legendType\": \"scroll\", \"markerSize\": 6, \"markerSizeB\": 6, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"ethereum\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 814, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Daily Price\", \"optionName\": \"metric_pto55y73gt_ls6ebdhgv1\", \"sqlExpression\": null}], \"metrics_b\": [{\"aggregate\": \"AVG\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"ethereum\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 814, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Average Price\", \"optionName\": \"metric_tie3c6s5ukl_9ndaw8lt50e\", \"sqlExpression\": null}], \"opacity\": 0.2, \"opacityB\": 0.2, \"order_desc\": true, \"order_desc_b\": true, \"rich_tooltip\": true, \"row_limit\": 10000, \"row_limit_b\": 10000, \"seriesType\": \"bar\", \"seriesTypeB\": \"line\", \"show_legend\": true, \"show_valueB\": false, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"viz_type\": \"mixed_timeseries\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"$,.2f\", \"y_axis_format_secondary\": \"SMART_NUMBER\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"remote_id\": 134, \"datasource_name\": \"test3_ethereum\", \"schema\": \"jdbc\", \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                            "query_context": "{\"datasource\":{\"id\":37,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Daily Price\",\"optionName\":\"metric_pto55y73gt_ls6ebdhgv1\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"Daily Price\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},null,{\"operation\":\"flatten\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Daily Price\",\"optionName\":\"metric_pto55y73gt_ls6ebdhgv1\"},false]]},{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"AVG\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Average Price\",\"optionName\":\"metric_tie3c6s5ukl_9ndaw8lt50e\"}],\"annotation_layers\":[],\"row_limit\":10000,\"timeseries_limit\":0,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"Average Price\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},null,{\"operation\":\"flatten\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"AVG\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Average Price\",\"optionName\":\"metric_tie3c6s5ukl_9ndaw8lt50e\"},false]]}],\"form_data\":{\"viz_type\":\"mixed_timeseries\",\"datasource\":\"37__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"timestamp\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"row_limit\":10000,\"row_limit_b\":10000,\"annotation_layers\":[],\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"presetColors\",\"seriesType\":\"bar\",\"opacity\":0.2,\"markerSize\":6,\"seriesTypeB\":\"line\",\"show_valueB\":false,\"opacityB\":0.2,\"markerSizeB\":6,\"show_legend\":true,\"legendType\":\"scroll\",\"legendOrientation\":\"bottom\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"smart_date\",\"truncateYAxis\":true,\"y_axis_bounds\":[null,null],\"y_axis_format\":\"$,.2f\",\"y_axis_format_secondary\":\"SMART_NUMBER\",\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\",\"is_timeseries\":true,\"adhoc_filters\":[],\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"Daily Price\",\"optionName\":\"metric_pto55y73gt_ls6ebdhgv1\"}],\"order_desc\":true},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Ethereum Price with MA",
+                            "viz_type": "mixed_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Dimcoin",
+                            "datasource_type": "table",
+                            "id": 135,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"bnbColors\", \"datasource\": \"25__table\", \"extra_form_data\": {}, \"granularity_sqla\": null, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"volume24h\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 774, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(volume24h)\", \"optionName\": \"metric_6ys1gzw0nlv_a77pajrcnt\", \"sqlExpression\": null}, \"rotation\": \"flat\", \"row_limit\": 100, \"series\": \"symbol\", \"size_from\": 10, \"size_to\": 100, \"slice_id\": 140, \"sort_by_metric\": true, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"word_cloud\", \"remote_id\": 135, \"datasource_name\": \"Dimcoin\", \"schema\": null, \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                            "query_context": "{\"datasource\":{\"id\":25,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":null,\"filters\":[],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"symbol\"],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":774,\"column_name\":\"volume24h\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_6ys1gzw0nlv_a77pajrcnt\"}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":774,\"column_name\":\"volume24h\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_6ys1gzw0nlv_a77pajrcnt\"},false]],\"annotation_layers\":[],\"row_limit\":100,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"form_data\":{\"viz_type\":\"word_cloud\",\"datasource\":\"25__table\",\"slice_id\":140,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":null,\"time_range\":\"No filter\",\"series\":\"symbol\",\"metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":774,\"column_name\":\"volume24h\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_6ys1gzw0nlv_a77pajrcnt\"},\"adhoc_filters\":[],\"row_limit\":100,\"sort_by_metric\":true,\"size_from\":10,\"size_to\":100,\"rotation\":\"flat\",\"color_scheme\":\"bnbColors\",\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "All Coin",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "jdbc.test bitcoin",
+                            "datasource_type": "table",
+                            "id": 136,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 0, \"g\": 229, \"r\": 252}, \"compare_lag\": 1, \"datasource\": \"36__table\", \"extra_form_data\": {}, \"force_timestamp_formatting\": false, \"granularity_sqla\": \"timestamp\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"bitcoin\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 811, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(bitcoin)\", \"optionName\": \"metric_uunwlqus0oq_7yc4p0faxbk\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_timestamp\": true, \"show_trend_line\": true, \"start_y_axis_at_zero\": false, \"subheader_font_size\": 0.15, \"time_format\": \"%d/%m/%Y\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"big_number\", \"y_axis_format\": \"$,.2f\", \"remote_id\": 136, \"datasource_name\": \"test3 bitcoin\", \"schema\": \"jdbc\", \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                            "query_context": "{\"datasource\":{\"id\":36,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":811,\"column_name\":\"bitcoin\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(bitcoin)\",\"optionName\":\"metric_uunwlqus0oq_7yc4p0faxbk\"}],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"MAX(bitcoin)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},null,null,{\"operation\":\"flatten\"}]}],\"form_data\":{\"viz_type\":\"big_number\",\"datasource\":\"36__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"timestamp\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":811,\"column_name\":\"bitcoin\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(bitcoin)\",\"optionName\":\"metric_uunwlqus0oq_7yc4p0faxbk\"},\"adhoc_filters\":[],\"compare_lag\":1,\"show_timestamp\":true,\"show_trend_line\":true,\"start_y_axis_at_zero\":false,\"color_picker\":{\"r\":252,\"g\":229,\"b\":0,\"a\":1},\"header_font_size\":0.4,\"subheader_font_size\":0.15,\"y_axis_format\":\"$,.2f\",\"time_format\":\"%d/%m/%Y\",\"force_timestamp_formatting\":false,\"rolling_type\":\"None\",\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Highest price and trend",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Dimcoin",
+                            "datasource_type": "table",
+                            "id": 141,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"BTC\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tpv1xosgklj_o2xioy4o2z\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"symbol\"}, {\"clause\": \"WHERE\", \"comparator\": \"Y\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_cfjtqscf83n_fkxirehy1n\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"is_current\"}], \"animation\": true, \"color_scheme\": \"supersetColors\", \"datasource\": \"24__table\", \"end_angle\": -45, \"extra_form_data\": {}, \"font_size\": 20, \"granularity_sqla\": \"start_date\", \"groupby\": [], \"max_val\": 1, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"supply/maxsupply\", \"optionName\": \"metric_low2dorjq8d_wgvto2z8kt\", \"sqlExpression\": \"supply/maxsupply\"}, \"min_val\": \"0\", \"number_format\": \".2%\", \"overlap\": true, \"round_cap\": true, \"row_limit\": 1, \"show_pointer\": true, \"show_progress\": true, \"slice_id\": 141, \"sort_by_metric\": false, \"split_number\": 10, \"start_angle\": 225, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"value_formatter\": \"{value}\", \"viz_type\": \"gauge_chart\", \"remote_id\": 141, \"datasource_name\": \"Dimcoin\", \"schema\": null, \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":24,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"start_date\",\"filters\":[{\"col\":\"symbol\",\"op\":\"==\",\"val\":\"BTC\"},{\"col\":\"is_current\",\"op\":\"==\",\"val\":\"Y\"}],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":null,\"column\":null,\"expressionType\":\"SQL\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"supply/maxsupply\",\"optionName\":\"metric_low2dorjq8d_wgvto2z8kt\",\"sqlExpression\":\"supply/maxsupply\"}],\"annotation_layers\":[],\"row_limit\":1,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"groupby\":[]}],\"form_data\":{\"viz_type\":\"gauge_chart\",\"datasource\":\"24__table\",\"slice_id\":141,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"start_date\",\"time_range\":\"No filter\",\"groupby\":[],\"metric\":{\"aggregate\":null,\"column\":null,\"expressionType\":\"SQL\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"supply/maxsupply\",\"optionName\":\"metric_low2dorjq8d_wgvto2z8kt\",\"sqlExpression\":\"supply/maxsupply\"},\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"symbol\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"BTC\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_tpv1xosgklj_o2xioy4o2z\"},{\"expressionType\":\"SIMPLE\",\"subject\":\"is_current\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Y\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_cfjtqscf83n_fkxirehy1n\"}],\"row_limit\":1,\"sort_by_metric\":false,\"min_val\":\"0\",\"max_val\":1,\"start_angle\":225,\"end_angle\":-45,\"color_scheme\":\"supersetColors\",\"font_size\":20,\"number_format\":\".2%\",\"value_formatter\":\"{value}\",\"show_pointer\":true,\"animation\":true,\"split_number\":10,\"show_progress\":true,\"overlap\":true,\"round_cap\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "BTC supply",
+                            "viz_type": "gauge_chart"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Dimcoin",
+                            "datasource_type": "table",
+                            "id": 142,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Y\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_iw95lrb91f_92y6trgy5mf\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"is_current\"}, {\"clause\": \"WHERE\", \"comparator\": \"ETH\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_6kj651noqpa_ih2viyzgue\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"symbol\"}], \"animation\": true, \"color_scheme\": \"supersetColors\", \"datasource\": \"24__table\", \"end_angle\": -45, \"extra_form_data\": {}, \"font_size\": 20, \"granularity_sqla\": null, \"groupby\": [], \"max_val\": 1, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"supply/maxsupply\", \"optionName\": \"metric_zqdvj0yqf69_g69c59oapc\", \"sqlExpression\": \"supply/maxsupply\"}, \"min_val\": \"0\", \"number_format\": \".2%\", \"overlap\": true, \"round_cap\": true, \"row_limit\": 10, \"show_axis_tick\": false, \"show_pointer\": true, \"show_progress\": true, \"show_split_line\": false, \"slice_id\": 142, \"split_number\": 10, \"start_angle\": 225, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"value_formatter\": \"{value}\", \"viz_type\": \"gauge_chart\", \"remote_id\": 142, \"datasource_name\": \"Dimcoin\", \"schema\": null, \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":24,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":null,\"filters\":[{\"col\":\"is_current\",\"op\":\"==\",\"val\":\"Y\"},{\"col\":\"symbol\",\"op\":\"==\",\"val\":\"ETH\"}],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":null,\"column\":null,\"expressionType\":\"SQL\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"supply/maxsupply\",\"optionName\":\"metric_zqdvj0yqf69_g69c59oapc\",\"sqlExpression\":\"supply/maxsupply\"}],\"annotation_layers\":[],\"row_limit\":10,\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"groupby\":[]}],\"form_data\":{\"viz_type\":\"gauge_chart\",\"datasource\":\"24__table\",\"slice_id\":142,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":null,\"time_range\":\"No filter\",\"groupby\":[],\"metric\":{\"aggregate\":null,\"column\":null,\"expressionType\":\"SQL\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"supply/maxsupply\",\"optionName\":\"metric_zqdvj0yqf69_g69c59oapc\",\"sqlExpression\":\"supply/maxsupply\"},\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"is_current\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Y\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_iw95lrb91f_92y6trgy5mf\"},{\"expressionType\":\"SIMPLE\",\"subject\":\"symbol\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"ETH\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_6kj651noqpa_ih2viyzgue\"}],\"row_limit\":10,\"min_val\":\"0\",\"max_val\":1,\"start_angle\":225,\"end_angle\":-45,\"color_scheme\":\"supersetColors\",\"font_size\":20,\"number_format\":\".2%\",\"value_formatter\":\"{value}\",\"show_pointer\":true,\"animation\":true,\"show_axis_tick\":false,\"show_split_line\":false,\"split_number\":10,\"show_progress\":true,\"overlap\":true,\"round_cap\":true,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "eth supply",
+                            "viz_type": "gauge_chart"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "jdbc.test_ethereum",
+                            "datasource_type": "table",
+                            "id": 143,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 137, \"g\": 193, \"r\": 90}, \"compare_lag\": 1, \"datasource\": \"37__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"timestamp\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"ethereum\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 814, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(ethereum)\", \"optionName\": \"metric_ur09rinf06q_enmwy74ttuh\", \"sqlExpression\": null}, \"min_periods\": 1, \"rolling_periods\": 5, \"rolling_type\": \"None\", \"show_timestamp\": true, \"show_trend_line\": true, \"start_y_axis_at_zero\": false, \"subheader_font_size\": 0.15, \"time_format\": \"%d/%m/%Y\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"big_number\", \"y_axis_format\": \"$,.2f\", \"remote_id\": 143, \"datasource_name\": \"test3_ethereum\", \"schema\": \"jdbc\", \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                            "query_context": "{\"datasource\":{\"id\":37,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(ethereum)\",\"optionName\":\"metric_ur09rinf06q_enmwy74ttuh\"}],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"MAX(ethereum)\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},null,null,{\"operation\":\"flatten\"}]}],\"form_data\":{\"viz_type\":\"big_number\",\"datasource\":\"37__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"timestamp\",\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":814,\"column_name\":\"ethereum\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(ethereum)\",\"optionName\":\"metric_ur09rinf06q_enmwy74ttuh\"},\"adhoc_filters\":[],\"compare_lag\":1,\"show_timestamp\":true,\"show_trend_line\":true,\"start_y_axis_at_zero\":false,\"color_picker\":{\"r\":90,\"g\":193,\"b\":137,\"a\":1},\"header_font_size\":0.4,\"subheader_font_size\":0.15,\"y_axis_format\":\"$,.2f\",\"time_format\":\"%d/%m/%Y\",\"rolling_type\":\"None\",\"rolling_periods\":5,\"min_periods\":1,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "ETH Daily Highest price and trend",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "Streaming coins number",
+                            "datasource_type": "table",
+                            "id": 290,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"36__table\", \"extra_form_data\": {}, \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"number\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 813, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"BIGINT\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(number)\", \"optionName\": \"metric_knxkd2otgwq_k2uafy7z4ae\", \"sqlExpression\": null}, \"subheader_font_size\": 0.15, \"time_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 290, \"datasource_name\": \"Streaming coins number\", \"schema\": null, \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":36,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":813,\"column_name\":\"number\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"BIGINT\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(number)\",\"optionName\":\"metric_knxkd2otgwq_k2uafy7z4ae\"}],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"form_data\":{\"viz_type\":\"big_number_total\",\"datasource\":\"36__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":813,\"column_name\":\"number\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"BIGINT\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(number)\",\"optionName\":\"metric_knxkd2otgwq_k2uafy7z4ae\"},\"adhoc_filters\":[],\"header_font_size\":0.4,\"subheader_font_size\":0.15,\"y_axis_format\":\"SMART_NUMBER\",\"time_format\":\"smart_date\",\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Total streaming coins",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "None.Dim Coin",
+                            "datasource_type": "table",
+                            "id": 291,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Y\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_8u3pn7fnk5q_nsfl4tgwtij\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"is_current\"}], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"name\"], \"datasource\": \"38__table\", \"extra_form_data\": {}, \"groupby\": [\"symbol\"], \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"volume24h\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 829, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(volume24h)\", \"optionName\": \"metric_k4qyg74cd0i_lemqkuk0bi\", \"sqlExpression\": null}], \"order_bars\": false, \"order_desc\": true, \"reduce_x_ticks\": false, \"rich_tooltip\": false, \"row_limit\": 10, \"show_bar_value\": true, \"show_controls\": true, \"show_legend\": true, \"slice_id\": 291, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"volume24h\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 829, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(volume24h)\", \"optionName\": \"metric_ysznpglss0k_5urbxe0epy6\", \"sqlExpression\": null}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_showminmax\": false, \"remote_id\": 291, \"datasource_name\": \"Dim Coin\", \"schema\": \"None\", \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":38,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"filters\":[{\"col\":\"is_current\",\"op\":\"==\",\"val\":\"Y\"}],\"extras\":{\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[\"symbol\",\"name\"],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"volume24h\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":829,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_k4qyg74cd0i_lemqkuk0bi\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":10,\"timeseries_limit\":0,\"timeseries_limit_metric\":{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"volume24h\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":829,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_ysznpglss0k_5urbxe0epy6\",\"sqlExpression\":null},\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"form_data\":{\"viz_type\":\"dist_bar\",\"datasource\":\"38__table\",\"slice_id\":291,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"time_range\":\"No filter\",\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"volume24h\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":829,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_k4qyg74cd0i_lemqkuk0bi\",\"sqlExpression\":null}],\"adhoc_filters\":[{\"clause\":\"WHERE\",\"comparator\":\"Y\",\"expressionType\":\"SIMPLE\",\"filterOptionName\":\"filter_8u3pn7fnk5q_nsfl4tgwtij\",\"isExtra\":false,\"isNew\":false,\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"sqlExpression\":null,\"subject\":\"is_current\"}],\"groupby\":[\"symbol\"],\"columns\":[\"name\"],\"row_limit\":10,\"timeseries_limit_metric\":{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"volume24h\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":829,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":false,\"isNew\":false,\"label\":\"MAX(volume24h)\",\"optionName\":\"metric_ysznpglss0k_5urbxe0epy6\",\"sqlExpression\":null},\"order_desc\":true,\"color_scheme\":\"supersetColors\",\"show_legend\":true,\"show_bar_value\":true,\"rich_tooltip\":false,\"bar_stacked\":true,\"order_bars\":false,\"y_axis_format\":\"SMART_NUMBER\",\"show_controls\":true,\"y_axis_showminmax\":false,\"y_axis_bounds\":[null,null],\"bottom_margin\":\"auto\",\"x_ticks_layout\":\"auto\",\"reduce_x_ticks\":false,\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Top trading volume",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "bronze_bitcoin",
+                            "datasource_type": "table",
+                            "id": 149,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"33__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"timestamp\", \"groupby\": [], \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 5, \"logAxis\": false, \"markerEnabled\": true, \"markerSize\": 2, \"metrics\": [{\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"bitcoin\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 802, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Price\", \"optionName\": \"metric_kol2i15tuw_xeedn4vh3b\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"average_1minute\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 804, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"Average price\", \"optionName\": \"metric_mjc00y3mkhr_6lhobofb087\", \"sqlExpression\": null}], \"minorSplitLine\": false, \"only_total\": true, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": 10, \"show_legend\": true, \"show_value\": false, \"slice_id\": 149, \"time_grain_sqla\": \"PT1S\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"MAX\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"timestamp\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 803, \"is_certified\": false, \"is_dttm\": true, \"python_date_format\": null, \"type\": \"TIMESTAMP(3) WITH TIME ZONE\", \"type_generic\": 2, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(timestamp)\", \"optionName\": \"metric_06nvvq8c1jz9_n2bhq97fyj\", \"sqlExpression\": null}, \"tooltipTimeFormat\": \"%d-%m-%Y %H:%M:%S\", \"truncateYAxis\": true, \"viz_type\": \"echarts_timeseries_line\", \"x_axis_time_format\": \"smart_date\", \"x_axis_title_margin\": 15, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"$,.2f\", \"y_axis_title_margin\": 15, \"y_axis_title_position\": \"Left\", \"zoomable\": true, \"remote_id\": 149, \"datasource_name\": \"bronze_bitcoin\", \"schema\": null, \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":33,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"timestamp\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"PT1S\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":802,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Price\",\"optionName\":\"metric_kol2i15tuw_xeedn4vh3b\",\"sqlExpression\":null},{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"average_1minute\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":804,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Average price\",\"optionName\":\"metric_mjc00y3mkhr_6lhobofb087\",\"sqlExpression\":null}],\"orderby\":[[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":803,\"column_name\":\"timestamp\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":true,\"type\":\"TIMESTAMP(3) WITH TIME ZONE\",\"type_generic\":2,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(timestamp)\",\"optionName\":\"metric_06nvvq8c1jz9_n2bhq97fyj\"},false]],\"annotation_layers\":[],\"row_limit\":10,\"series_columns\":[],\"timeseries_limit\":5,\"timeseries_limit_metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":803,\"column_name\":\"timestamp\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":true,\"type\":\"TIMESTAMP(3) WITH TIME ZONE\",\"type_generic\":2,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(timestamp)\",\"optionName\":\"metric_06nvvq8c1jz9_n2bhq97fyj\"},\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{},\"is_timeseries\":true,\"time_offsets\":[],\"post_processing\":[{\"operation\":\"pivot\",\"options\":{\"index\":[\"__timestamp\"],\"columns\":[],\"aggregates\":{\"Price\":{\"operator\":\"mean\"},\"Average price\":{\"operator\":\"mean\"}},\"drop_missing_columns\":false,\"flatten_columns\":false,\"reset_index\":false}},{\"operation\":\"flatten\"}]}],\"form_data\":{\"viz_type\":\"echarts_timeseries_line\",\"datasource\":\"33__table\",\"slice_id\":149,\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"granularity_sqla\":\"timestamp\",\"time_grain_sqla\":\"PT1S\",\"time_range\":\"No filter\",\"metrics\":[{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"bitcoin\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":802,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Price\",\"optionName\":\"metric_kol2i15tuw_xeedn4vh3b\",\"sqlExpression\":null},{\"aggregate\":\"MAX\",\"column\":{\"certification_details\":null,\"certified_by\":null,\"column_name\":\"average_1minute\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":804,\"is_certified\":false,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"DOUBLE\",\"type_generic\":0,\"verbose_name\":null,\"warning_markdown\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"Average price\",\"optionName\":\"metric_mjc00y3mkhr_6lhobofb087\",\"sqlExpression\":null}],\"groupby\":[],\"adhoc_filters\":[],\"limit\":5,\"timeseries_limit_metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":803,\"column_name\":\"timestamp\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":true,\"type\":\"TIMESTAMP(3) WITH TIME ZONE\",\"type_generic\":2,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"MAX\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"MAX(timestamp)\",\"optionName\":\"metric_06nvvq8c1jz9_n2bhq97fyj\"},\"order_desc\":true,\"row_limit\":10,\"comparison_type\":\"values\",\"annotation_layers\":[],\"forecastPeriods\":10,\"forecastInterval\":0.8,\"x_axis_title_margin\":15,\"y_axis_title_margin\":15,\"y_axis_title_position\":\"Left\",\"color_scheme\":\"supersetColors\",\"show_value\":false,\"only_total\":true,\"markerEnabled\":true,\"markerSize\":2,\"zoomable\":true,\"show_legend\":true,\"legendType\":\"scroll\",\"legendOrientation\":\"top\",\"x_axis_time_format\":\"smart_date\",\"rich_tooltip\":true,\"tooltipTimeFormat\":\"%d-%m-%Y %H:%M:%S\",\"y_axis_format\":\"$,.2f\",\"logAxis\":false,\"minorSplitLine\":false,\"truncateYAxis\":true,\"y_axis_bounds\":[null,null],\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Bitcoin real-time price",
+                            "viz_type": "echarts_timeseries_line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "None.Dim Coin",
+                            "datasource_type": "table",
+                            "id": 575,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Y\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_7ow9ppq3yur_zbxfsk90ake\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"operatorId\": \"EQUALS\", \"sqlExpression\": null, \"subject\": \"is_current\"}], \"datasource\": \"38__table\", \"extra_form_data\": {}, \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"SUM\", \"column\": {\"certification_details\": null, \"certified_by\": null, \"column_name\": \"volume24h\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 829, \"is_certified\": false, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"DOUBLE\", \"type_generic\": 0, \"verbose_name\": null, \"warning_markdown\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"SUM(volume24h)\", \"optionName\": \"metric_waotal1fark_jqzv6r82tn\", \"sqlExpression\": null}, \"subheader_font_size\": 0.15, \"time_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"big_number_total\", \"y_axis_format\": \"$,.2f\", \"remote_id\": 575, \"datasource_name\": \"Dim Coin\", \"schema\": \"None\", \"database_name\": \"Trino\"}",
+                            "query_context": "{\"datasource\":{\"id\":38,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"filters\":[{\"col\":\"is_current\",\"op\":\"==\",\"val\":\"Y\"}],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":829,\"column_name\":\"volume24h\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(volume24h)\",\"optionName\":\"metric_waotal1fark_jqzv6r82tn\"}],\"annotation_layers\":[],\"timeseries_limit\":0,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"form_data\":{\"viz_type\":\"big_number_total\",\"datasource\":\"38__table\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"time_grain_sqla\":\"P1D\",\"time_range\":\"No filter\",\"metric\":{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":829,\"column_name\":\"volume24h\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"DOUBLE\",\"type_generic\":0,\"python_date_format\":null,\"is_certified\":false,\"certified_by\":null,\"certification_details\":null,\"warning_markdown\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":false,\"label\":\"SUM(volume24h)\",\"optionName\":\"metric_waotal1fark_jqzv6r82tn\"},\"adhoc_filters\":[{\"expressionType\":\"SIMPLE\",\"subject\":\"is_current\",\"operator\":\"==\",\"operatorId\":\"EQUALS\",\"comparator\":\"Y\",\"clause\":\"WHERE\",\"sqlExpression\":null,\"isExtra\":false,\"isNew\":false,\"filterOptionName\":\"filter_7ow9ppq3yur_zbxfsk90ake\"}],\"header_font_size\":0.4,\"subheader_font_size\":0.15,\"y_axis_format\":\"$,.2f\",\"time_format\":\"smart_date\",\"extra_form_data\":{},\"force\":false,\"result_format\":\"json\",\"result_type\":\"full\"},\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "Total volume trading in day",
+                            "viz_type": "big_number_total"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "column_name": "__timestamp",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 834,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "TIMESTAMP(3)",
+                            "uuid": "f46718d5-a235-4f53-9eb1-69ebda99192a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "column_name": "symbol",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 835,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VARCHAR",
+                            "uuid": "25abd585-76e8-4a9c-8913-fee05b80ee03",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 836,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VARCHAR",
+                            "uuid": "32b51cd9-3c72-4d18-b6c6-1410d9b21f1b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "column_name": "MAX(change_percent_last_day)",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 837,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "DOUBLE",
+                            "uuid": "690c5592-f666-49fc-9e9e-d07423581fa7",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T08:41:57"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 48,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 40,
+                            "uuid": "6151d768-6d47-40d3-a981-36ed4fd6f9ed",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 40, \"database_name\": \"Trino\"}",
+                "schema": null,
+                "sql": "SELECT date_trunc('day', CAST(\"CalendarDate\" AS TIMESTAMP)) AS __timestamp,\r\n      symbol as symbol,\r\n       name AS name,\r\n       max(change_percent_last_day) AS \"MAX(change_percent_last_day)\"\r\nFROM\r\n  (SELECT c.symbol,\r\n          c.name,\r\n          d.CalendarDate,\r\n          t.time,\r\n          f.price,\r\n          f.market_cap,\r\n          f.change_percent_last_day,\r\n          f.average_1minute\r\n   FROM delta.silver.fact as f\r\n   JOIN delta.silver.dimdate as d ON f.date_id = d.id\r\n   JOIN delta.silver.dimcoin as c ON f.coin_id = c.coin_id\r\n   JOIN delta.silver.dimtime as t ON f.time_id = t.id\r\n   ORDER BY t.time DESC)\r\n   GROUP BY name, symbol,\r\n         date_trunc('day', CAST(\"CalendarDate\" AS TIMESTAMP))\r\nORDER BY \"MAX(change_percent_last_day)\" DESC",
+                "table_name": "Change percent",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 764,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "df4445bd-8d04-4c95-a4f7-5e8e9cd7100b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "symbol",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 765,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "72e79c80-bdae-411d-b25c-a7769703cb1a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "supply",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 766,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "DOUBLE",
+                            "uuid": "6116ea18-9cec-4477-a0a4-dcd6868ead7e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "maxsupply",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 767,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "DOUBLE",
+                            "uuid": "09453f0e-c2b1-4717-8d6d-89d3fe72074e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "volume24h",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 768,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "DOUBLE",
+                            "uuid": "6c4f26dd-e9a6-439f-b029-c885761a805c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "surrogate_key",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 838,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "BIGINT",
+                            "uuid": "e72080e5-a3b3-4d6c-9916-d3ff703d7fb8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "coin_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 839,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "INTEGER",
+                            "uuid": "b25273da-d16f-4a27-af13-5b7b7cd1192c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "hash",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 840,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "681a2609-e3ad-4ef5-ab42-1ead7c970853",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "start_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 841,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "DATE",
+                            "uuid": "83f96602-f53a-4937-ae97-99fe1208a3d3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "end_date",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 842,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "DATE",
+                            "uuid": "47f35879-b53f-4340-9299-2cd91b5160ac",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "column_name": "is_current",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T09:10:22"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 843,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 24,
+                            "type": "VARCHAR",
+                            "uuid": "e2d7718b-660d-4c03-b3ec-708758325640",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 31,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 24,
+                            "uuid": "89565b2b-5479-49b7-90f0-ce00d00e4ecb",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 24, \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                "schema": null,
+                "sql": "SELECT * FROM delta.silver.dimcoin",
+                "table_name": "Dimcoin",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "coin_id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 824,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "INTEGER",
+                            "uuid": "2d65aefd-4bf7-476c-b9a3-b9c52bc122d0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "symbol",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 825,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "VARCHAR",
+                            "uuid": "975dd905-c76d-406e-84cb-6036ef8d4c4e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 826,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "VARCHAR",
+                            "uuid": "c9cc1885-5eec-4c7b-bae3-11c94c31af83",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "supply",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 827,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "DOUBLE",
+                            "uuid": "2f3577f9-d772-45f9-9140-bea042e5f02f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "maxsupply",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 828,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "DOUBLE",
+                            "uuid": "c0f2c450-793d-4adf-973e-28a5c47a290e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "volume24h",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 829,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "DOUBLE",
+                            "uuid": "19fb1781-d5f5-43b3-a530-f3f35b677460",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "column_name": "is_current",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 830,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 38,
+                            "type": "VARCHAR",
+                            "uuid": "2b404187-4484-42e9-a587-f73e803cbf4d",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:27:38"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 46,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 38,
+                            "uuid": "8e6aa2af-bf55-42cb-bf32-2e34150bfade",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 38, \"database_name\": \"Trino\"}",
+                "schema": "None",
+                "sql": "select coin_id, symbol, name, supply, maxsupply, volume24h, is_current from delta.silver.dimcoin",
+                "table_name": "Dim Coin",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "symbol",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 844,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "VARCHAR",
+                            "uuid": "d0604171-71a6-4656-b229-219915f8c11f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 845,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "VARCHAR",
+                            "uuid": "6a2cf9f7-9ecf-4f90-8111-07ffa93622be",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "CalendarDate",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 846,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "DATE",
+                            "uuid": "15b5b975-85ad-482d-98c9-7accdd2ebc3f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "Time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 847,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "VARCHAR",
+                            "uuid": "2f86b993-b595-4123-bfde-a95a9ff472a4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "price",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 848,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "DOUBLE",
+                            "uuid": "ff91de9e-010b-4f5e-a4ab-e47d7a9cb678",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "market_cap",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 849,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "DOUBLE",
+                            "uuid": "896b6762-1887-4da0-af2a-3de4ba3e7665",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "change_percent_last_day",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 850,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "DOUBLE",
+                            "uuid": "90a6367b-3f32-422f-b17e-d01525833302",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "column_name": "average_1minute",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 851,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 41,
+                            "type": "DOUBLE",
+                            "uuid": "595dafc0-8c75-46c7-97b0-bf292ac48c23",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T10:17:28"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 49,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 41,
+                            "uuid": "fe0a71b8-1ea3-4c61-a9ed-9d135c896fb3",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 41, \"database_name\": \"Trino\"}",
+                "schema": null,
+                "sql": "SELECT    \r\n          c.symbol,\r\n          c.name,\r\n          d.CalendarDate,\r\n          t.Time,\r\n          f.price,\r\n          f.market_cap,\r\n          f.change_percent_last_day,\r\n          f.average_1minute\r\n   FROM delta.silver.fact as f\r\n   JOIN ( \r\n      select coin_id, symbol, name\r\n      from delta.silver.dimcoin\r\n      where is_current = 'Y'\r\n   ) c ON f.coin_id = c.coin_id\r\n   JOIN delta.silver.dimdate d\r\n   ON d.id = f.date_id\r\n   JOIN delta.silver.dimtime t\r\n   ON t.id =f.time_id\r\n   ORDER BY d.CalendarDate desc , t.Time desc",
+                "table_name": "FACT",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:13:03"
+                            },
+                            "column_name": "number",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:13:03"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 813,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 36,
+                            "type": "BIGINT",
+                            "uuid": "fc698e85-6e72-4bac-a11e-0be12f8c909c",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T06:13:03"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-15T06:13:03"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 43,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 36,
+                            "uuid": "3e2c2c6b-fc62-4b78-bf42-a9f5258cbaa2",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 36, \"database_name\": \"Trino\"}",
+                "schema": null,
+                "sql": "SELECT count (distinct coin_id) as number from delta.silver.fact",
+                "table_name": "Streaming coins number",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "column_name": "bitcoin",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 802,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE",
+                            "uuid": "8d518f4b-8c68-451d-8990-b170d092b817",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "column_name": "timestamp",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 803,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "TIMESTAMP(3) WITH TIME ZONE",
+                            "uuid": "2a4f71c2-b79a-4357-8205-a3e0a1f7ac9f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "column_name": "average_1minute",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 804,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 33,
+                            "type": "DOUBLE",
+                            "uuid": "2c349ad8-bb46-4a65-98bc-6449ae6954b3",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:38:04"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 40,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 33,
+                            "uuid": "33e979d9-d70c-4ac1-a45c-49f32af72c4f",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 33, \"database_name\": \"Trino\"}",
+                "schema": null,
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\n-- SELECT * from delta.silver.dimcoin\nselect * from delta.bronze.bitcoin_stg",
+                "table_name": "bronze_bitcoin",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:14:53"
+                            },
+                            "column_name": "ethereum",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 775,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 26,
+                            "type": "DOUBLE",
+                            "uuid": "1892d363-cae7-4634-9f01-3742f47fa113",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:14:53"
+                            },
+                            "column_name": "timestamp",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 776,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 26,
+                            "type": "TIMESTAMP(3) WITH TIME ZONE",
+                            "uuid": "df43c4fc-aab9-45e4-995c-b711d4d87613",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-15T09:14:53"
+                            },
+                            "column_name": "average_1minute",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 777,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 26,
+                            "type": "DOUBLE",
+                            "uuid": "66777cd4-0979-4086-88c3-da37b691e7c2",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:10"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 33,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 26,
+                            "uuid": "9f248b9b-12ed-4a6f-b8e4-1c15bbe0e58f",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 26, \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                "schema": "jdbc",
+                "sql": "select * from delta.bronze.ethereum_stg",
+                "table_name": "test3_ethereum",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "column_name": "bitcoin",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 799,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 32,
+                            "type": "DOUBLE",
+                            "uuid": "9b483ad8-351c-43a6-a026-e3b4131bf1ec",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "column_name": "timestamp",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 800,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 32,
+                            "type": "TIMESTAMP(3) WITH TIME ZONE",
+                            "uuid": "bee8ad9e-82ed-49dd-ba45-50831a105630",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "column_name": "average_1minute",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "extra": "{\"warning_markdown\":null}",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 801,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 32,
+                            "type": "DOUBLE",
+                            "uuid": "12a6f8c2-def1-4e14-8337-5290c5807bd3",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2024-06-14T10:15:11"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{\"warning_markdown\":\"\"}",
+                            "id": 39,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 32,
+                            "uuid": "13e26c08-b556-492a-8a77-dfbd5149c378",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 32, \"database_name\": \"Trino\", \"import_time\": 1718360110}",
+                "schema": "jdbc",
+                "sql": "select * from delta.bronze.bitcoin_stg",
+                "table_name": "test3 bitcoin",
+                "template_params": null
+            }
+        }
+    ]
+}

@@ -50,18 +50,34 @@ def ingest_to_bronze(df, coin_name):
         logger.info(f'{e}')
 
 
-def process_fact_stream(df_bronze, coin_name, last_price, df_broadcast,fact_path):    
+def process_fact_stream(df_bronze, coin_name, last_price, df_broadcast, fact_path):
     try:
-        fact = df_bronze.withColumn('date_id', get_date_id(df_bronze['timestamp']))\
-                    .withColumn('time_id', date_format(col('timestamp'), 'HHmmss').cast(IntegerType()))\
-                    .join(df_broadcast, df_bronze.columns[0] == df_broadcast['name'], 'left')\
-                    .withColumn('market_cap', col(coin_name) * col('supply'))\
-                    .withColumn('change_percent_last_day', (col(coin_name) - last_price)/last_price)\
-                    .withColumn('created_at', date_format(current_timestamp(), 'HH:mm:ss'))\
-                    .select(col('coin_id').alias('coin_id'), col('date_id'), col('time_id'), col(coin_name).alias('price'), col('market_cap'),
-                            col('change_percent_last_day'), col('average_1minute') ,col('created_at')).coalesce(2)
+        fact = df_bronze\
+            .withWatermark("timestamp", "1 minute")\
+            .withColumn('date_id', get_date_id(df_bronze['timestamp']))\
+            .withColumn('time_id', date_format(col('timestamp'), 'HHmmss').cast(IntegerType()))\
+            .join(df_broadcast, df_bronze.columns[0] == df_broadcast['name'], 'left')\
+            .withColumn('market_cap', col(coin_name) * col('supply'))\
+            .withColumn('change_percent_last_day', (col(coin_name) - last_price) / last_price)\
+            .withColumn('created_at', date_format(current_timestamp(), 'HH:mm:ss'))\
+            .select(
+                col('coin_id').alias('coin_id'),
+                col('date_id'),
+                col('time_id'),
+                col(coin_name).alias('price'),
+                col('market_cap'),
+                col('change_percent_last_day'),
+                col('average_1minute'),
+                col('created_at')
+            ).coalesce(2)
+        
         logger.info(f'Start process {coin_name} stream')
-        return fact.writeStream.format('delta').outputMode('append').partitionBy('coin_id').option('checkpointLocation',f'./delta3/eventFact_{coin_name}/checkpoints_')\
-                .trigger(processingTime = '0 second').start(fact_path)
+        
+        return fact.writeStream.format('delta')\
+            .outputMode('append')\
+            .partitionBy('coin_id')\
+            .option('checkpointLocation', f'./delta3/eventFact_{coin_name}/checkpoints_')\
+            .trigger(processingTime='1 second')\
+            .start(fact_path)
     except Exception as e:
         logger.error(f"Process streams failed. Error: {e}")

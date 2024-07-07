@@ -58,7 +58,7 @@ def main():
                 if "xrp" in data:
                     value = add_timestamp({"xrp": data["xrp"]})
                     producer.send(topic_xrp, value=value)
-                sleep(10)
+                sleep(5)
 
         except WebSocketConnectionClosedException as e:
             print("WebSocket connection closed: ", e)

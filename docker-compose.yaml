@@ -1,13 +1,13 @@
 version: '3.8'
 
-x-superset-image: &superset-image guisilveira/superset
+x-superset-image: &superset-image duxting404/superset
 x-superset-depends-on: &superset-depends-on
   - db
   - redis
 x-superset-volumes: &superset-volumes
   # /app/pythonpath_docker will be appended to the PYTHONPATH in the final container
   - ./docker:/app/docker
-  - superset_home:/app/superset_home
+  - /data/superset_home:/app/superset_home
 x-logging: &default-logging
   options:
     max-size: "100m"
@@ -16,7 +16,7 @@ x-logging: &default-logging
 
 services:
   minio:
-    image: guisilveira/minio
+    image: duxting404/minio
     container_name: minio
     networks:
       - bigdata
@@ -31,7 +31,7 @@ services:
       - MINIO_ROOT_PASSWORD=minioadmin
     restart: unless-stopped
   metastore-db:
-    image: guisilveira/mariadb
+    image: duxting404/mariadb
     container_name: metastore-db
     networks:
       - bigdata
@@ -41,7 +41,7 @@ services:
       - MYSQL_ROOT_PASSWORD=mypass
     restart: unless-stopped
   create-metastore-schema:
-    image: guisilveira/hive-metastore 
+    image: duxting404/hive-metastore 
     container_name: create-metastore-schema
     depends_on:
       - metastore-db
@@ -50,7 +50,7 @@ services:
     command: /opt/hive-metastore/bin/schematool --verbose -initSchema -dbType mysql -userName root -passWord mypass -url jdbc:mysql://metastore-db:3306/metastore_db?createDatabaseIfNotExist=true
     restart: unless-stopped
   metastore:
-    image: guisilveira/hive-metastore
+    image: duxting404/hive-metastore
     container_name: metastore
     networks:
       - bigdata
@@ -66,7 +66,7 @@ services:
       - metastore-db
     restart: unless-stopped
   jupyter:
-    image: duxting404/jupyter
+    image: duxting404/spark
     container_name: jupyter
     user: root
     networks:
@@ -78,7 +78,7 @@ services:
       - 4041:4041
     command: jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --NotebookApp.token='' --NotebookApp.password='' --allow-root
   trino:
-    image: guisilveira/trino
+    image: duxting404/trino
     container_name: trino
     hostname: trino
     ports:
@@ -93,7 +93,7 @@ services:
       - metastore
     restart: on-failure
   zookeeper:
-    image: guisilveira/zookeeper
+    image: duxting404/zookeeper
     container_name: zookeeper
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
@@ -105,7 +105,7 @@ services:
       - bigdata
     restart: unless-stopped
   broker:
-    image: guisilveira/kafka
+    image: duxting404/kafka
     container_name: broker
     ports:
       - 9092:9092
@@ -126,25 +126,21 @@ services:
       - bigdata
     restart: unless-stopped
   DataCreator:
-    image: duxting404/jupyter
+    image: duxting404/spark
     container_name: DataCreator
     user: root
     networks:
       - bigdata
-    volumes:
-      - ./data/notebooks/Sourcecode:/app:rw
-    command: python3 ./AutomateTable.py
+    command: python3 AutomateTable.py
   streaming_processing:
-    image: duxting404/jupyter
+    image: duxting404/spark
     container_name: streaming_processing
     user: root
     networks:
       - bigdata
-    volumes:
-      - ./data/notebooks/Sourcecode:/app:rw
     ports:
       - 4040:4040
-    command: python3 ./streaming_pipeline.py
+    command: python3 streaming_pipeline.py
   producer:
     image: duxting404/kafka-producer
     container_name: producer
@@ -156,7 +152,7 @@ services:
       - ./data/Kafka:/app:rw
     command: python3 ./kafka_producer.py
   redis:
-    image: guisilveira/redis:latest
+    image: duxting404/redis:latest
     volumes:
       - redis:/data
     networks:
