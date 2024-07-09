@@ -54,15 +54,18 @@ def base_spark_config(is_streaming=False):
     .set("spark.executor.cores", "2")\
     .set("spark.cores.max", "6")\
     .set("spark.driver.memory", "2g")\
+    .set('spark.databricks.delta.retentionDurationCheck.enabled', 'false')\
+    .set("spark.databricks.delta.withEventTimeOrder.enabled","true")\
+    .set("spark.sql.streaming.statefulOperator.allowMultiple", "false")
 
     if is_streaming:
         conf.set("spark.jars.packages",conf.get("spark.jars.packages") + ",org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1")\
         .set("spark.sql.shuffle.partitions", 5)\
-        .set("spark.default.parallelism", 2)\
         .set("spark.scheduler.allocation.file", "./fairscheduler.xml")\
-        .set('spark.databricks.delta.retentionDurationCheck.enabled', 'false')\
-        .set("spark.databricks.delta.optimizeWrite.enabled", 'true')\
-        .set("spark.scheduler.mode","FAIR")\
+        .set("spark.databricks.delta.optimizeWrite.enabled", 'True')\
+        .set("spark.scheduler.mode","FAIR") \
+        .set("spark.sql.adaptive.enabled", 'true')\
+        .set("spark.default.parallelism", "2")  
     
     return conf
 

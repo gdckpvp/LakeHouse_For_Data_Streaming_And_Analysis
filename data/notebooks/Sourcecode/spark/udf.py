@@ -4,7 +4,14 @@ from pyspark.sql.window import Window
 from pyspark.sql.types import *
 from datetime import datetime, timedelta
 from pyspark.sql.utils import AnalysisException
+from delta.tables import *
+import logging
 import sys
+from utils import get_dailycoin_from_api
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s:%(funcName)s:%(levelname)s:%(message)s')
+logger = logging.getLogger("Spark-Streaming")
+
 
 def get_last_price_previous_day(df):
     """
@@ -74,5 +81,23 @@ def append_to_fact(spark, microBatchDf: DataFrame, batchId: int,  path: str):
         microBatchDf.write.format('delta').mode('append').save(path)
     except Exception as e:
         raise(e)
+    
+def get_dailycoin(spark, ticker, start_date, dailycoin_path):    
+    try:
+        df = get_dailycoin_from_api(ticker, start_date)
+        # convert df to spark dataframe
+        df = (spark.createDataFrame(df)
+                    .withColumn("Date", col("Date").cast("date"))
+                    .withColumn("Open", col("Open").cast("double"))
+                    .withColumn("High", col("High").cast("double"))
+                    .withColumn("Low", col("Low").cast("double"))
+                    .withColumn("Close", col("Close").cast("double"))
+                    .withColumn("AdjClose", col("AdjClose").cast("double"))
+                    .withColumn("Volume", col("Volume").cast("long"))
+                    .select("Date", "Open", "High", "Low", "Close", "AdjClose", "Volume"))
+        df.write.format('delta').mode('overwrite').save(dailycoin_path)
+        logger.info(f"Successfully created dailycoin table for {ticker}")
+    except Exception as e:
+        logger.info("Fallback to overwrite due to exception.")
             
         

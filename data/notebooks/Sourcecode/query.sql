@@ -7,3 +7,5 @@ CREATE TABLE IF NOT EXISTS delta.bronze.ethereum_stg(ethereum DOUBLE,timestamp T
 CREATE TABLE IF NOT EXISTS delta.silver.dimcoin(surrogate_key BIGINT,coin_id INTEGER,symbol VARCHAR,name VARCHAR,supply DOUBLE,maxSupply DOUBLE,volume24h DOUBLE,hash VARCHAR,start_date DATE,end_date DATE,is_current VARCHAR(1))
 CREATE TABLE IF NOT EXISTS delta.silver.dimtime(id INTEGER,Time VARCHAR,Hour VARCHAR,Minute VARCHAR,Second VARCHAR,Time24 VARCHAR,Hour24 VARCHAR,AmPm VARCHAR)
 CREATE TABLE IF NOT EXISTS delta.silver.dimdate(id INTEGER,CalendarDate DATE,CalendarYear INTEGER,CalendarMonth VARCHAR,MonthOfYear INTEGER,CalendarDay VARCHAR,DayOfWeek INTEGER,DayOfMonth INTEGER,DayOfYear INTEGER,WeekOfYearIso INTEGER)
+CREATE TABLE IF NOT EXISTS delta.silver.dailybitcoin(Date DATE,Open DOUBLE,High DOUBLE,Low DOUBLE,Close DOUBLE,AdjClose DOUBLE,Volume BIGINT)
+CREATE TABLE IF NOT EXISTS delta.silver.dailyethereum(Date DATE,Open DOUBLE,High DOUBLE,Low DOUBLE,Close DOUBLE,AdjClose DOUBLE,Volume BIGINT)

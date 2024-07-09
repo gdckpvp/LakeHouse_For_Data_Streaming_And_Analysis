@@ -53,7 +53,6 @@ def ingest_to_bronze(df, coin_name):
 def process_fact_stream(df_bronze, coin_name, last_price, df_broadcast, fact_path):
     try:
         fact = df_bronze\
-            .withWatermark("timestamp", "1 minute")\
             .withColumn('date_id', get_date_id(df_bronze['timestamp']))\
             .withColumn('time_id', date_format(col('timestamp'), 'HHmmss').cast(IntegerType()))\
             .join(df_broadcast, df_bronze.columns[0] == df_broadcast['name'], 'left')\
@@ -69,9 +68,7 @@ def process_fact_stream(df_bronze, coin_name, last_price, df_broadcast, fact_pat
                 col('change_percent_last_day'),
                 col('average_1minute'),
                 col('created_at')
-            ).coalesce(2)
-        
-        logger.info(f'Start process {coin_name} stream')
+            ).coalesce(2)        
         
         return fact.writeStream.format('delta')\
             .outputMode('append')\

@@ -8,7 +8,7 @@ from delta.tables import *
 
 ## libraries for connecting to functions in spark folder
 from spark.delta_manager import optimize_delta, vacuum_delta
-from utils import get_coins_from_api
+from spark.udf import get_dailycoin
 from tbl_paths import BUCKET_PATH, TABLE_PATHS
 from spark.populate_dim import upsert_scd_dimcoin,initialize_dimcoin_staging
 from spark.metadata import check_minio_bucket, check_existing_timedata
@@ -25,6 +25,11 @@ dimdate_path = f"{BUCKET_PATH}/{TABLE_PATHS.get('dim_date')}"
 dimcoin_path = f"{BUCKET_PATH}/{TABLE_PATHS.get('dim_coin')}"
 dimcoin_stg_path = f"{BUCKET_PATH}/{TABLE_PATHS.get('dimcoin_stg')}"
 fact_path = f"{BUCKET_PATH}/{TABLE_PATHS.get('fact')}"
+dailybitcoin_path = f"{BUCKET_PATH}/{TABLE_PATHS.get('daily_bitcoin')}"
+daily_ethereum = f"{BUCKET_PATH}/{TABLE_PATHS.get('daily_ethereum')}"
+tickerBTC = 'BTC-USD'
+tickerETH = 'ETH-USD'
+start_date = '2010-01-01'
 #################### Create Spark Session ####################
 
 def base_spark_config(is_streaming=False):
@@ -47,18 +52,20 @@ def base_spark_config(is_streaming=False):
     .set('hive.metastore.uris', "thrift://metastore:9083")\
     .set("spark.executor.memory", "2g")\
     .set("spark.executor.cores", "2")\
-    .set("spark.cores.max", "10")\
+    .set("spark.cores.max", "6")\
     .set("spark.driver.memory", "2g")\
+    .set('spark.databricks.delta.retentionDurationCheck.enabled', 'false')\
+    .set("spark.databricks.delta.withEventTimeOrder.enabled","true")\
+    .set("spark.sql.streaming.statefulOperator.allowMultiple", "false")
 
     if is_streaming:
         conf.set("spark.jars.packages",conf.get("spark.jars.packages") + ",org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1")\
         .set("spark.sql.shuffle.partitions", 5)\
-        .set("spark.default.parallelism", 2)\
         .set("spark.scheduler.allocation.file", "./fairscheduler.xml")\
-        .set('spark.databricks.delta.retentionDurationCheck.enabled', 'false')\
-        .set("spark.databricks.delta.optimizeWrite.enabled", 'true')\
-        .set("spark.scheduler.mode","FAIR")\
-        #.set("spark.sql.streaming.checkpointFileManagerClass", "io.minio.spark.checkpoint.S3BasedCheckpointFileManager")\
+        .set("spark.databricks.delta.optimizeWrite.enabled", 'True')\
+        .set("spark.scheduler.mode","FAIR") \
+        .set("spark.sql.adaptive.enabled", 'true')\
+        .set("spark.default.parallelism", "2")  
     
     return conf
 
@@ -101,4 +108,6 @@ if __name__ == "__main__":
     check_existing_timedata(spark)
     initialize_dimcoin_staging(spark, dimcoin_stg_path)
     upsert_scd_dimcoin(spark, dimcoin_path, dimcoin_stg_path)
+    get_dailycoin(spark, tickerBTC, start_date, dailybitcoin_path)
+    get_dailycoin(spark, tickerETH, start_date, daily_ethereum)
     optimize_vacuum_storage()

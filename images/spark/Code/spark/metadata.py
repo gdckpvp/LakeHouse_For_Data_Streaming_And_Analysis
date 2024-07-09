@@ -42,7 +42,7 @@ def create_hive_table():
     # time.sleep(70)
     conn = connect(host="trino",
                     port=8080,
-                    user="airflow")
+                    user="Trino")
     cur = conn.cursor()
     
     query = []

@@ -3,6 +3,7 @@ import requests
 import json
 from datetime import datetime
 from tbl_paths import  LIST_COINS
+import yfinance as yf
 
 def get_coins_from_api():
     columns = ['symbol', 'name', 'supply', 'maxSupply',"volume24h"]
@@ -28,4 +29,14 @@ def get_coins_from_api():
         if max_supply is None: 
             max_supply = 99999999999
         df.loc[len(df)] = [symbol, name, supply, max_supply, volume24h]
+    return df
+
+def get_dailycoin_from_api(ticker, start_date):
+    # get data to current date
+    df = yf.download(ticker, start_date, end=datetime.today().strftime('%Y-%m-%d'))
+    df.reset_index(inplace=True)  
+    # Convert the Date column to datetime format
+    df['Date'] = pd.to_datetime(df['Date'])
+    # Rename the columns Adj Close to AdjClose
+    df.rename(columns={'Adj Close': 'AdjClose'}, inplace=True)
     return df
